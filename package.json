@@ -1,0 +1,25 @@
+{
+  "name": "nuxt-static-example",
+  "version": "1.0.0",
+  "description": "Nuxt.js static website example.",
+  "main": "index.js",
+  "repository": "https://github.com/kenote/nuxt-static-example.git",
+  "author": "thondery <thondery@163.com>",
+  "license": "MIT",
+  "dependencies": {
+    "nuxt": "^2.11.0",
+    "nuxt-property-decorator": "^2.5.0",
+    "ts-optchain": "^0.1.8"
+  },
+  "devDependencies": {
+    "@nuxt/typescript-build": "^0.5.6",
+    "@types/node": "13.1.8",
+    "tsconfig-paths-webpack-plugin": "^3.2.0",
+    "tslint": "^6.0.0",
+    "typescript": "^3.7.5"
+  },
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt generate"
+  }
+}
