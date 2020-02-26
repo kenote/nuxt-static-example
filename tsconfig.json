@@ -11,11 +11,13 @@
     "esModuleInterop": false,
     "experimentalDecorators": true,
     "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
     "allowJs": true,
     "sourceMap": true,
     "strict": true,
     "noImplicitAny": false,
     "noEmit": true,
+    "skipLibCheck": true,
     "baseUrl": ".",
     "paths": {
       "~/*": [
