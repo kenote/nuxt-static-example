@@ -19,6 +19,10 @@ export default {
     '~/plugins/component',
     { src: '~/plugins/element-ui', ssr: true }
   ],
+  loading: {
+    color: '#00c58e', 
+    height: '2px'
+  },
   buildModules: [
     '@nuxt/typescript-build',
     '@nuxtjs/svg'

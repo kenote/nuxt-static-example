@@ -1,10 +1,10 @@
 import Vue from 'vue'
 import {
-  Row,
-  Col
+  Button,
+  DatePicker
 } from 'element-ui'
 
 export default () => {
-  Vue.use(Row)
-  Vue.use(Col)
+  Vue.use(Button)
+  Vue.use(DatePicker)
 }

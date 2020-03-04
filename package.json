@@ -27,6 +27,6 @@
   },
   "scripts": {
     "dev": "nuxt",
-    "build": "nuxt generate"
+    "generate": "nuxt generate"
   }
 }

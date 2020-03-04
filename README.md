@@ -2,6 +2,20 @@
 
 Nuxt.js static website example.
 
+## Usage
+
+### devlop
+
+```bash
+$ npm run dev
+```
+
+### export static file
+
+```bash
+$ npm run generate
+```
+
 ## License
 
 this repo is released under the [MIT License][licensed-url].
